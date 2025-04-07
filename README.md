@@ -1,70 +1,179 @@
-# Getting Started with Create React App
+# 📚 Book List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples desenvolvido com **React** como parte dos meus estudos. O objetivo é colocar em prática os principais conceitos do React, criando uma aplicação para adicionar, editar e remover livros de uma lista.  
+O projeto utiliza o `json-server` para simular uma API REST local.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- Adicionar livros à lista
+- Editar informações dos livros
+- Remover livros
+- Listar todos os livros cadastrados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- **React** — Biblioteca JavaScript para construção de interfaces
+- **Axios** — Cliente HTTP para realizar requisições à API
+- **JSON Server** — Servidor fake para simular uma API REST local
+- **useState** e **useEffect** — Hooks para gerenciamento de estado e efeitos colaterais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧪 Objetivo do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto faz parte do curso que estou realizando para dominar os fundamentos e boas práticas do desenvolvimento com **React**. A ideia é explorar os conceitos de forma incremental, com foco em:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Compreensão de JSX, props e state
+- Componentização e reuso
+- Manipulação de dados via API
+- Estudo de hooks como `useState` e `useEffect`
+- Aplicação de CRUD completo no frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Instalação e Execução
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/seu-usuario/book-list-app.git
+cd book-list-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Instale as dependências:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+3. Inicie o servidor `json-server`:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run server
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Isso irá rodar o servidor em `http://localhost:3001`
 
-### Code Splitting
+4. Em outro terminal, inicie o app React:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+> O app estará disponível em `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📘 Curso Base
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este projeto está sendo desenvolvido com base em um curso completo de React e Redux que aborda:
 
-### Advanced Configuration
+- Construção de apps reais com React
+- Gerenciamento de estado com Redux Toolkit e Context API
+- Estilização com TailwindCSS
+- Tipagem com TypeScript
+- Uso de React Router para navegação
+- Integração com APIs, manipulação de formulários, e muito mais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Curso ideal para quem quer dominar o ecossistema moderno do React.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ✍️ Autor
 
-### `npm run build` fails to minify
+Desenvolvido por [Thiago Venceslau Monteiro](https://github.com/seu-usuario) 👋
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 📚 Book List App
+
+This is a simple project developed with **React** as part of my studies. The goal is to practice the main concepts of React by creating an application to add, edit, and remove books from a list.  
+The project uses `json-server` to simulate a local REST API.
+
+---
+
+## 🚀 Features
+
+- Add books to the list
+- Edit book information
+- Remove books
+- List all registered books
+
+---
+
+## 🛠️ Technologies Used
+
+- **React** — JavaScript library for building user interfaces
+- **Axios** — HTTP client to make API requests
+- **JSON Server** — Fake server to simulate a local REST API
+- **useState** and **useEffect** — Hooks for state management and side effects
+
+---
+
+## 🧪 Project Goal
+
+This project is part of a course I'm taking to master the fundamentals and best practices of **React** development. The idea is to explore concepts incrementally, focusing on:
+
+- Understanding JSX, props, and state
+- Componentization and reuse
+- Data manipulation via API
+- Studying hooks like `useState` and `useEffect`
+- Implementing complete CRUD on the frontend
+
+---
+
+## 📦 Installation and Execution
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/book-list-app.git
+cd book-list-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the `json-server`:
+
+```bash
+npm run server
+```
+
+> This will run the server at `http://localhost:3001`
+
+4. In another terminal, start the React app:
+
+```bash
+npm start
+```
+
+> The app will be available at `http://localhost:3000`
+
+---
+
+## 📘 Course Reference
+
+This project is based on a comprehensive React and Redux course that covers:
+
+- Building real-world apps with React
+- State management with Redux Toolkit and Context API
+- Styling with TailwindCSS
+- Type safety with TypeScript
+- Navigation using React Router
+- API integration, form handling, and much more
+
+> An ideal course for those who want to master the modern React ecosystem.
+
+---
+
+## ✍️ Author
+
+Developed by [Thiago Venceslau Monteiro](https://github.com/your-username) 👋
